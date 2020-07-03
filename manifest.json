@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Gitlab Issue Template",
+    "version": "1.0",
+    "description": ".",
+    "icons": {
+        "48": "icons/git-alt-brands.svg"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://gitlab.com/*"
+            ],
+            "js": [
+                "extension.js"
+            ]
+        }
+    ],
+    "options_ui": {
+        "page": "settings.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "823hd0-sds98sd@cgsource.tech"
+        }
+    },
+    "optional_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+
