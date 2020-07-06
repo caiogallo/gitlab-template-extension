@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": ".",
     "icons": {
-        "48": "icons/git-alt-brands.svg"
+        "48": "icons/git-alt-brands.png"
     },
     "content_scripts": [
         {
@@ -24,11 +24,12 @@
     ],
     "browser_specific_settings": {
         "gecko": {
-            "id": "823hd0-sds98sd@cgsource.tech"
+            "id": "{623ef4c0-7624-493b-86df-b2092c03c043}"
         }
     },
     "optional_permissions": [
         "http://*/*",
         "https://*/*"
     ]
+}
 
